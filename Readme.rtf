@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # American Option Pricing with Monte Carlo Simulation and OLS Regression\
+\
+This repository contains a Jupyter notebook implementing the valuation of American-style options using a combination of Monte Carlo simulation and Ordinary Least Squares (OLS) regression. The work was developed as part of my MSc Financial Risk Management at Trinity College Dublin.\
+\
+---\
+\
+## \uc0\u55357 \u56524  Project Overview\
+\
+Traditional binomial methods for valuing American options can become computationally expensive as the number of time steps grows. To address this, this notebook applies a least-squares Monte Carlo (LSM) approach, where regression methods estimate the continuation value of holding the option at each time step, allowing for a more efficient and flexible valuation.\
+\
+**Key features:**\
+- Generates multiple simulated price paths for the underlying asset\
+- Uses OLS regression to estimate continuation values at each exercise date\
+- Calculates American option prices under different assumptions\
+- Provides visualizations and pricing summaries\
+\
+---\
+\
+## \uc0\u55357 \u57056 \u65039  Tools & Libraries\
+\
+- Python\
+- NumPy\
+- pandas\
+- scikit-learn (for regression)\
+- matplotlib (for plotting)\
+\
+---\
+\
+## \uc0\u9881 \u65039  How to Run\
+\
+1. Clone this repository:\
+   ```bash\
+   git clone https://github.com/akshanthgunda/american-option-pricing.git\
+}
